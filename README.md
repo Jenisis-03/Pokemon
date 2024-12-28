@@ -86,7 +86,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
-**Your Name**
+
 - GitHub: [@Jenisis-03](https://github.com/Jenisis-03)
 
 ## 🌟 Acknowledgments
