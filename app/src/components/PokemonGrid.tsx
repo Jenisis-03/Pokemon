@@ -1,5 +1,5 @@
-"use client";
-import { useEffect, useState } from "react";
+"use client"
+import { useCallback, useEffect, useState } from "react";
 import { Pokemon } from "../lib/types";
 import { getPokemonList, getPokemonDetails } from "../lib/pokemon";
 import PokemonCard from "./PokemonCard";
@@ -19,7 +19,7 @@ const PokemonGrid = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
 
-  const fetchPokemon = async () => {
+  const fetchPokemon = useCallback(async () => {
     try {
       setLoading(true);
       const list = await getPokemonList(offset);
@@ -34,11 +34,11 @@ const PokemonGrid = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [offset]); // `offset` is now a dependency of `fetchPokemon`
 
   useEffect(() => {
     fetchPokemon();
-  }, [offset]);
+  }, [fetchPokemon]); // `fetchPokemon` is included here as a dependency
 
   useEffect(() => {
     let filtered = pokemon;

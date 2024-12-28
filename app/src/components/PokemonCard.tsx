@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import { Pokemon } from '../lib/types';
 import { getTypeColor } from '../lib/pokemon';
 import FavoriteButton from './FavoriteButton';
+import Image from 'next/image';
 
 interface PokemonCardProps {
   pokemon: Pokemon;
@@ -19,9 +20,11 @@ const PokemonCard = ({ pokemon, onClick }: PokemonCardProps) => {
       </div>
       
       <div className="relative aspect-square mb-4 overflow-hidden rounded-lg bg-gray-50">
-        <img
+        <Image
           src={pokemon.sprites.other['official-artwork'].front_default}
           alt={pokemon.name}
+          width={200} // Add fixed width
+          height={200} // Add fixed height
           className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300"
           loading="lazy"
         />
