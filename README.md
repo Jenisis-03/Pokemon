@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Pokemon Project
 
-## Getting Started
+## 📝 Description
+[Provide a concise description of your Pokemon project - what it does and why you built it]
 
-First, run the development server:
+## ✨ Features
+- Feature 1 with detailed explanation
+- Feature 2 with detailed explanation
+- Feature 3 with detailed explanation
 
+## 🛠️ Technologies Used
+- Technology 1
+- Technology 2
+- Technology 3
+
+## 📋 Prerequisites
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# List any prerequisites needed to run your project
+# For example:
+Node.js v14+
+npm or yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Installation
+```bash
+# Clone the repository
+git clone https://github.com/Jenisis-03/Pokemon.git
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Navigate to the project directory
+cd Pokemon
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+npm install
+```
 
-## Learn More
+## 🚀 Usage
+```bash
+# Start the application
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 API Endpoints (if applicable)
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/pokemon` | GET | Fetches all Pokemon |
+| `/api/pokemon/:id` | GET | Fetches specific Pokemon |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
+![Desktop Version](public/i1.PNG)
+![Desktop Version](public/i2.PNG)
+![Mobile Version](public/s3.PNG)
+![Mobile Version](public/s4.PNG)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🧪 Testing
+```bash
+# Run tests
+npm test
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Jenisis-03/Pokemon/issues).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+## 👤 Author
+**Your Name**
+- GitHub: [@Jenisis-03](https://github.com/Jenisis-03)
+
+## 🌟 Acknowledgments
+- List any resources, inspiration, or people you'd like to thank
+
+## 📞 Contact
+For any questions or feedback, please reach out to [subhamwworks@gmail.com]
