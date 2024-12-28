@@ -3,6 +3,7 @@ import { Dialog, DialogContent } from "./ui/dialog";
 import { Pokemon } from '../lib/pokemon';
 import { getTypeColor } from '../lib/pokemon';
 import FavoriteButton from './FavoriteButton';
+import Image from "next/image";
 
 interface PokemonModalProps {
   pokemon: Pokemon | null;
@@ -22,7 +23,7 @@ const PokemonModal = ({ pokemon, isOpen, onClose }: PokemonModalProps) => {
           </div>
           
           <div className="aspect-square w-full max-w-[200px] mx-auto mb-4">
-            <img
+            <Image
               src={pokemon.sprites.other['official-artwork'].front_default}
               alt={pokemon.name}
               className="w-full h-full object-contain"
